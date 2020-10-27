@@ -14,14 +14,3 @@ date: Last Modified
   {% set postslist = collections.posts %}
   {% include "postslist.njk" %}
 </div>
-<div>
-{% set mentions = webmentions | getWebmentionsForUrl(absoluteUrl) %}
-<ol id="webmentions">
-{% for webmention in mentions %}
-    <li class="webmentions__item">
-        {% include 'webmention.njk' %}
-    </li>
-{% endfor %}
-</ol>
-
-</div>
