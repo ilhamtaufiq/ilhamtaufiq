@@ -56,6 +56,39 @@ const localImages = require("./third_party/eleventy-plugin-local-images/.elevent
 const CleanCSS = require("clean-css");
 const GA_ID = require("./_data/metadata.json").googleAnalyticsId;
 
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(pluginRss)
+  eleventyConfig.addPlugin(pluginSyntaxHighlight)
+  eleventyConfig.setDataDeepMerge(true)
+
+  eleventyConfig.addLayoutAlias('post', 'layouts/post.njk')
+
+  eleventyConfig.addFilter(
+    'readableDate',
+    (dateObj, format = 'dd LLL yyyy') => {
+      return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(format)
+    }
+  )
+
+  eleventyConfig.addFilter('dateFromTimestamp', (timestamp) => {
+    return DateTime.fromISO(timestamp, { zone: 'utc' }).toJSDate()
+  })
+
+  // https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
+  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+    return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd')
+  })
+
+  // Get the first `n` elements of a collection.
+  eleventyConfig.addFilter('head', (array, n) => {
+    if (n < 0) {
+      return array.slice(n)
+    }
+
+    return array.slice(0, n)
+  })
+
+
       // WEBMENTIONS FILTER
   eleventyConfig.addFilter('webmentionsForUrl', (webmentions, url) => {
     // define which types of webmentions should be included per URL.
