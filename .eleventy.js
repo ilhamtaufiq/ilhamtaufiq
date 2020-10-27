@@ -87,7 +87,7 @@ module.exports = function (eleventyConfig) {
 
     return array.slice(0, n)
   })
-}
+
 
       // WEBMENTIONS FILTER
   eleventyConfig.addFilter('webmentionsForUrl', (webmentions, url) => {
@@ -121,6 +121,7 @@ module.exports = function (eleventyConfig) {
 
       return entry
     }
+    
 
     // sort webmentions by published timestamp chronologically.
     // swap a.published and b.published to reverse order.
@@ -141,7 +142,7 @@ module.exports = function (eleventyConfig) {
       .map(clean)
   })
 
-
+}
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
