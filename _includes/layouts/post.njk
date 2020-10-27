@@ -24,6 +24,9 @@ templateClass: tmpl-post
   favorit kamu💖  
   <!-- <a href="https://twitter.com/{{ metadata.author.twitterHandle }}" target="_blank" rel="noopener">mention saya di Twitter.</a> -->
 </p>
+{% include "webmentionlist.njk" %}
+
+
 
 <share-widget>
   <button on-click="share" aria-label="Share" href="{{ shareUrl | safe }}">
