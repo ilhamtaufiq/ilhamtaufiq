@@ -87,7 +87,7 @@ module.exports = function (eleventyConfig) {
 
     return array.slice(0, n)
   })
-
+}
 
       // WEBMENTIONS FILTER
   eleventyConfig.addFilter('webmentionsForUrl', (webmentions, url) => {
