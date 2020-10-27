@@ -9,7 +9,7 @@ templateClass: tmpl-post
    {% set wc = content | striptags | wordcount %}
    {% set wPerMinute = wc / 240 %}
    <aside>
-     {{ wPerMinute | round }} min read.
+     {{ wPerMinute | round }} menit
    </aside>
 {% endblock %}
 
@@ -20,7 +20,7 @@ templateClass: tmpl-post
 
 <h1>🤘</h1>
 <p>
-  Terima kasih telah membaca, Jika bermanfaat silahkan <a href="{{ shareUrl | safe }}" on-click="share">bagikan</a> artikel ini ke sosial media 
+  Terima kasih telah membaca artikel saya, jika bermanfaat silahkan <a href="{{ shareUrl | safe }}" on-click="share">bagikan</a> ke sosial media 
   favorit kamu💖  
   <!-- <a href="https://twitter.com/{{ metadata.author.twitterHandle }}" target="_blank" rel="noopener">mention saya di Twitter.</a> -->
 </p>
