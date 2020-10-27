@@ -1,0 +1,11 @@
+---
+layout: layouts/home.njk
+permalink: /posts/
+---
+
+<h1>Archive</h1>
+
+{% raw %}
+{% set postslist = collections.posts %}
+{% endraw %}
+{% include "postslist.njk" %}
