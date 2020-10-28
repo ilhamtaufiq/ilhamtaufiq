@@ -18,7 +18,7 @@ templateClass: tmpl-post
 {% block article %}
 {{ content | safe }}
 
-<h1>🤘</h1>
+<h1>🤘 Komentar</h1>
 
 
     <div class="share">
@@ -29,13 +29,13 @@ templateClass: tmpl-post
 
       <p>
         {% if tweetId %}
-        <a href="https://twitter.com/intent/tweet?in_reply_to={{ tweetId }}">Join the conversation</a> on Twitter. Or, if
-        you liked this article and think others should read it, please <a
+        <a href="https://twitter.com/intent/tweet?in_reply_to={{ tweetId }}">Gabung percakapan</a> di Twitter. Atau, jika Anda menyukai artikel ini dan merasa orang lain harus membacanya, 
+        silakan  <a
           href="https://twitter.com/intent/retweet?tweet_id={{ tweetId }}" target="_blank" rel="noopener">retweet it</a>.
         {% else %}
-        If you liked this article and think others should read it, please <a
-          href="{{ page.url | generateShareLink(description) }}" target="_blank" rel="noopener">share it</a>. Or, <a
-          href="{{ page.url | generateDiscussionLink }}">find the conversation</a> on Twitter.
+        Jika kamu menyukai artikel ini dan merasa orang lain harus membacanya, silakan <a
+          href="{{ page.url | generateShareLink(description) }}" target="_blank" rel="noopener">bagikan</a> atau <a
+          href="{{ page.url | generateDiscussionLink }}">temukan percakapan ini</a> di Twitter.
         {% endif %}
       </p>
     </div>
