@@ -55,7 +55,9 @@ const markdownItAnchor = require("markdown-it-anchor");
 const localImages = require("./third_party/eleventy-plugin-local-images/.eleventy.js");
 const CleanCSS = require("clean-css");
 const GA_ID = require("./_data/metadata.json").googleAnalyticsId;
-const filters = require('./_11ty/filters')
+const filters = require('./_11ty/filters');
+const isProduction = process.env.NODE_ENV === `production`;
+
 
 
 module.exports = function (eleventyConfig) {
@@ -232,6 +234,7 @@ module.exports = function (eleventyConfig) {
     markdownTemplateEngine: "liquid",
     htmlTemplateEngine: "njk",
     dataTemplateEngine: "njk",
+    pathPrefix: isProduction ? `/the-website/` : `/`, // <-- do this!
 
     // These are all optional, defaults are shown:
     dir: {
