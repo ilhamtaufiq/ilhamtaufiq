@@ -19,14 +19,24 @@ templateClass: tmpl-post
 {{ content | safe }}
 
 <h1>🤘</h1>
-<p>
-  Terima kasih telah membaca artikel saya, jika bermanfaat silahkan <a href="{{ shareUrl | safe }}" on-click="share">bagikan</a> ke sosial media 
-  favorit kamu💖  
-  <!-- <a href="https://twitter.com/{{ metadata.author.twitterHandle }}" target="_blank" rel="noopener">mention saya di Twitter.</a> -->
-</p>
-    <h2>Webmentions</h3>
+
+    <div class="share">
+      <p>
+        {% if tweetId %}
+        <a href="https://twitter.com/intent/tweet?in_reply_to={{ tweetId }}">Join the conversation</a> on Twitter. Or, if
+        you liked this article and think others should read it, please <a
+          href="https://twitter.com/intent/retweet?tweet_id={{ tweetId }}" target="_blank" rel="noopener">retweet it</a>.
+        {% else %}
+        Jika kamu menyukai artikel ini dan berpikir orang lain harus membacanya, silakan <a
+          href="{{ page.url | generateShareLink(description) }}" target="_blank" rel="noopener">Bagikan</a> atau <a
+          href="{{ page.url | generateDiscussionLink }}">cari utas artikel ini</a> di Twitter.
+        {% endif %}
+      </p>
+    </div>
+
     {% set webmentionUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset %}
     {% include 'webmentions.njk' %}
+
 
 
 
