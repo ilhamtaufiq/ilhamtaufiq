@@ -66,6 +66,7 @@
     "rollup": "^2.23.0",
     "sanitize-html": "^2.1.1",
     "sharp": "^0.25.4",
-    "twitter": "^1.7.1"
+    "twitter": "^1.7.1",
+    "object-path": ">=0.11.5"
   }
 }
