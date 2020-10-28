@@ -457,3 +457,35 @@ a {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--primary);
 }
+/* Webmentions */
+.webmentions img {border-radius: 50%;}
+.webmentions h3 {margin-top: 40px;}
+.webmentions__facepile a {
+  border: none;
+  box-shadow: none;}
+.webmentions__facepile a:hover {background: none;}
+.webmentions a:hover img { filter: drop-shadow(3px 5px 10px var(--pink-20));}
+.form-webmention {margin: 16px 0; width: 100%;}
+.webmention-replies img {
+  height: 24px;
+  width: 24px;}
+.webmention-replies article {margin-bottom: 32px;}
+.webmention-replies .webmention__meta {margin-bottom: 8px;}
+.webmention-replies .webmention__meta time {display: block; margin-top: 8px;}
+form input[type="url"] {
+  display: block;
+  height: 2rem;
+  margin: 4px 0;
+  width: 100%;}
+form .button {height: 2rem; width: 150px;}
+form label {font-weight: 700;}
+.webmention-replies .webmention__meta {
+  display: grid;
+  grid-template-columns: 30px 1fr 200px;
+}
+.webmention-replies .webmention__meta time {
+  display: inline;
+  margin-top: 0;
+  text-align: right;
+}
+

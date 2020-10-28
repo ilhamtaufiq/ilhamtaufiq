@@ -24,7 +24,7 @@ module.exports = {
     return DateTime.fromISO(dateStr).toFormat(formatStr);
   },
   generateShareLink: (url, text) => {
-    const shareText = `${text} oleh @ilhamtopiq`
+    const shareText = `${text}oleh @ilhamtopiq`
     const shareUrl = `${rootUrl}${url}`
     return `https://twitter.com/intent/tweet/?text=${encodeURI(shareText)}&url=${encodeURI(shareUrl)}`
   },

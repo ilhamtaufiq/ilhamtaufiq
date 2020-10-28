@@ -1,5 +1,5 @@
 ---
-title: Perihal Kecerdasan Emosional.
+title: Perihal Kecerdasan Emosional
 description: Banyak orang terlihat cerdas secara emosional, padahal tidak.
 date: 2020-10-28
 tags:
