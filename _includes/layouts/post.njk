@@ -24,7 +24,6 @@ templateClass: tmpl-post
   favorit kamu💖  
   <!-- <a href="https://twitter.com/{{ metadata.author.twitterHandle }}" target="_blank" rel="noopener">mention saya di Twitter.</a> -->
 </p>
-  <section>
     <h2>Webmentions</h3>
 
     <div class="share">
@@ -48,8 +47,6 @@ templateClass: tmpl-post
 
     {% set webmentionUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset %}
     {% include 'webmentions.njk' %}
-  </section>
-
 
 
 <share-widget>
