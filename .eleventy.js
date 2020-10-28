@@ -40,7 +40,7 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-const { DateTime } = require("luxon");
+const { DateTime } = require('luxon')
 const { promisify } = require("util");
 const fs = require("fs");
 const hasha = require("hasha");
@@ -57,6 +57,7 @@ const CleanCSS = require("clean-css");
 const GA_ID = require("./_data/metadata.json").googleAnalyticsId;
 const filters = require('./_11ty/filters');
 const isProduction = process.env.NODE_ENV === `production`;
+
 
 
 
