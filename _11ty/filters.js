@@ -33,8 +33,4 @@ module.exports = {
     const postUrl = `${rootUrl}${url}`
     return `https://twitter.com/search?f=tweets&src=typd&q=${encodeURI(postUrl)}`
   },
-  getEvents: timing =>  events[timing],
-  getTalkForEvent: id => talks[id],
-  getSelect: posts => posts.filter(post => post.data.isSelect),
-  truncate: text => text.length > 300 ? `${text.substring(0, 300)}...` : text,
 }

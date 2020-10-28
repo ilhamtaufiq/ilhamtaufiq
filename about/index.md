@@ -1,10 +1,7 @@
 ---
 layout: layouts/base.njk
-title: About
+title: Tentang Saya
 templateClass: tmpl-post
-eleventyNavigation:
-  key: About
-  order: 3
 ---
 
 I am a person that writes stuff.
