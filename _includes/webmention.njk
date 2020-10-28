@@ -15,7 +15,7 @@
       </span>
     {% endif %}
     {% if webmention.published %}
-        <time class="postlist-date" datetime="{{ webmention.published }}">
+        <time datetime="{{ webmention.published }}">
             {{ webmention.published | readableDateFromISO }}
         </time>
     {% endif %}

@@ -2,6 +2,7 @@
 title: Perihal Kecerdasan Emosional
 description: Banyak orang terlihat cerdas secara emosional, padahal tidak.
 date: 2020-10-28
+tweetId: '1321380677753794561'
 tags:
   - Renungan
 layout: layouts/post.njk

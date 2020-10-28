@@ -469,9 +469,9 @@ a {
 .webmention-replies img {
   height: 20px;
   width: 20px;}
-.webmention-replies article {margin-bottom: 12px;}
-.webmention-replies .webmention__meta {margin-bottom: 5px;}
-.webmention-replies .webmention__meta time {display: block; margin-top: 5px;}
+.webmention-replies article {margin-bottom: 8px;}
+.webmention-replies .webmention__meta {margin-bottom: 3px;}
+.webmention-replies .webmention__meta time {display: block; margin-top: 3px;}
 form input[type="url"] {
   display: block;
   height: 2rem;
