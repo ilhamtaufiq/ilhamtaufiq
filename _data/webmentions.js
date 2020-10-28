@@ -24,7 +24,7 @@ async function fetchWebmentions(since, perPage = 10000) {
   const response = await fetch(url)
   if (response.ok) {
     const feed = await response.json()
-    console.log(`>>> ${feed.children.length} new webmentions fetched from ${API}/mentions.jf2?domain=${domain}&token=${TOKEN}`)
+    console.log(`>>> ${feed.children.length} new webmentions fetched from ${API}`)
     return feed
   }
 

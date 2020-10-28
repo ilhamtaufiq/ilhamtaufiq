@@ -15,4 +15,3 @@ Kebanyakan orang berpikir tentang kecerdasan emosional sebagai keterampilan, ses
 Sebagian memang benar, tetapi ada kebenaran terlewatkan tentang kecerdasan emosional:
 
 *Meningkatkan kecerdasan emosionalmu adalah tentang apa yang kamu lebih sedikit lakukan, bukan sebaliknya.*
-

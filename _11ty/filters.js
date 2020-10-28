@@ -1,5 +1,6 @@
-const { DateTime } = require("luxon"); // Already in eleventy-base-blog
+const { DateTime } = require("luxon");
 const rootUrl = require('../_data/metadata.json').url
+
 
 module.exports = {
   getWebmentionsForUrl: (webmentions, url) => {
@@ -7,7 +8,7 @@ module.exports = {
   },
   isOwnWebmention: (webmention) => {
     const urls = [
-      'https://ilhamtopiq.netlify.app/',
+      'https://ilhamtopiq.netlify.app',
       'https://twitter.com/ilhamtopiq'
     ]
     const authorUrl = webmention.author ? webmention.author.url : false
@@ -24,7 +25,7 @@ module.exports = {
     return DateTime.fromISO(dateStr).toFormat(formatStr);
   },
   generateShareLink: (url, text) => {
-    const shareText = `${text}oleh @ilhamtopiq`
+    const shareText = `${text} oleh @ilhamtopiq`
     const shareUrl = `${rootUrl}${url}`
     return `https://twitter.com/intent/tweet/?text=${encodeURI(shareText)}&url=${encodeURI(shareUrl)}`
   },
