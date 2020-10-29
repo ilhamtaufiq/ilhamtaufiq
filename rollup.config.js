@@ -1,8 +1,13 @@
 import { terser } from "rollup-plugin-terser";
 
 export default {
-  entry: 'src/main.js',
-  dest: '_site/js/min.js',
-  format: 'iife',
-  sourceMap: 'inline',
+  input: "src/main.js",
+  output: [
+    {
+      file: "js/min.js",
+      format: "iife",
+      sourcemap: true,
+      plugins: [terser()],
+    },
+  ],
 };
