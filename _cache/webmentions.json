@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-10-29T16:58:07.932Z",
+  "lastFetched": "2020-10-29T17:28:03.604Z",
   "children": [
     {
       "type": "entry",
@@ -192,6 +192,72 @@
       "content": {
         "html": "Tambah github webhook <a href=\"https://twitter.com/ilhamtopiq\">@ilhamtopiq</a>",
         "text": "Tambah github webhook @ilhamtopiq"
+      },
+      "in-reply-to": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Risalah Supply",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a2f90676683f9ec144b954c690c49207b812813d69e3369f1b58202606f58811.jpg",
+        "url": "https://twitter.com/risalahsupply"
+      },
+      "url": "https://twitter.com/risalahsupply/status/1321862889813073920",
+      "published": "2020-10-29T17:14:06+00:00",
+      "wm-received": "2020-10-29T17:20:23Z",
+      "wm-id": 891821,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/ilhamtopiq/1321380677753794561/1321862889813073920",
+      "wm-target": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "content": {
+        "html": "update build command @ilhamtopiq\n<a class=\"u-mention\" href=\"https://ilhamtopiq.netlify.app/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ilhamtopiq\"></a>",
+        "text": "update build command @ilhamtopiq"
+      },
+      "in-reply-to": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Risalah Supply",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a2f90676683f9ec144b954c690c49207b812813d69e3369f1b58202606f58811.jpg",
+        "url": "https://twitter.com/risalahsupply"
+      },
+      "url": "https://twitter.com/risalahsupply/status/1321865850752622593",
+      "published": "2020-10-29T17:25:52+00:00",
+      "wm-received": "2020-10-29T17:26:05Z",
+      "wm-id": 891825,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/ilhamtopiq/1321380677753794561/1321865850752622593",
+      "wm-target": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "content": {
+        "html": "error test\n<a class=\"u-mention\" href=\"https://ilhamtopiq.netlify.app/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ilhamtopiq\"></a>",
+        "text": "error test"
+      },
+      "in-reply-to": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Risalah Supply",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a2f90676683f9ec144b954c690c49207b812813d69e3369f1b58202606f58811.jpg",
+        "url": "https://twitter.com/risalahsupply"
+      },
+      "url": "https://twitter.com/risalahsupply/status/1321866274016690176",
+      "published": "2020-10-29T17:27:33+00:00",
+      "wm-received": "2020-10-29T17:27:45Z",
+      "wm-id": 891827,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/ilhamtopiq/1321380677753794561/1321866274016690176",
+      "wm-target": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "content": {
+        "html": "mention test @ilhamtopiq <a href=\"https://twitter.com/risalahsupply\">@risalahsupply</a>\n<a class=\"u-mention\" href=\"https://ilhamtopiq.netlify.app/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ilhamtopiq\"></a>",
+        "text": "mention test @ilhamtopiq @risalahsupply"
       },
       "in-reply-to": "https://ilhamtopiq.netlify.app/posts/emosional/",
       "wm-property": "in-reply-to",
