@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-10-29T18:09:50.239Z",
+  "lastFetched": "2020-10-29T18:43:34.563Z",
   "children": [
     {
       "type": "entry",
@@ -324,6 +324,50 @@
       "content": {
         "html": "mention tes @ilhamtopiq (293293923)\n<a class=\"u-mention\" href=\"https://ilhamtopiq.netlify.app/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ilhamtopiq\"></a>",
         "text": "mention tes @ilhamtopiq (293293923)"
+      },
+      "in-reply-to": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Risalah Supply",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a2f90676683f9ec144b954c690c49207b812813d69e3369f1b58202606f58811.jpg",
+        "url": "https://twitter.com/risalahsupply"
+      },
+      "url": "https://twitter.com/risalahsupply/status/1321881082527014913",
+      "published": "2020-10-29T18:26:24+00:00",
+      "wm-received": "2020-10-29T18:26:41Z",
+      "wm-id": 891847,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/ilhamtopiq/1321380677753794561/1321881082527014913",
+      "wm-target": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "content": {
+        "html": "tes <a href=\"https://twitter.com/risalahsupply\">@risalahsupply</a> dan <a href=\"https://twitter.com/cenderakopi\">@cenderakopi</a>\n<a class=\"u-mention\" href=\"https://ilhamtopiq.netlify.app/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ilhamtopiq\"></a>",
+        "text": "tes @risalahsupply dan @cenderakopi"
+      },
+      "in-reply-to": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Risalah Supply",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a2f90676683f9ec144b954c690c49207b812813d69e3369f1b58202606f58811.jpg",
+        "url": "https://twitter.com/risalahsupply"
+      },
+      "url": "https://twitter.com/risalahsupply/status/1321880270794973185",
+      "published": "2020-10-29T18:23:10+00:00",
+      "wm-received": "2020-10-29T18:23:24Z",
+      "wm-id": 891845,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/ilhamtopiq/1321380677753794561/1321880270794973185",
+      "wm-target": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "content": {
+        "html": "tes @ilhamtopiq and <a href=\"https://twitter.com/risalahsupply\">@risalahsupply</a>  and <a href=\"https://twitter.com/cenderakopi\">@cenderakopi</a>\n<a class=\"u-mention\" href=\"https://ilhamtopiq.netlify.app/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ilhamtopiq\"></a>",
+        "text": "tes @ilhamtopiq and @risalahsupply  and @cenderakopi"
       },
       "in-reply-to": "https://ilhamtopiq.netlify.app/posts/emosional/",
       "wm-property": "in-reply-to",
