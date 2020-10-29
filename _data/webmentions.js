@@ -2,7 +2,7 @@ const fs = require('fs')
 const fetch = require('node-fetch')
 const unionBy = require('lodash/unionBy')
 const domain = require('./metadata.json').domain
-
+ 
 // Load legacy webmentions from mxb.at
 const legacyWebmentions = require('../_cache/webmentions.json')
 
