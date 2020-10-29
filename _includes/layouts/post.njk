@@ -19,23 +19,9 @@ templateClass: tmpl-post
 {{ content | safe }}
 
 <h1>🤘 Komentar</h1>
-      <p>
-        {% if tweetId %}
-        <a href="https://twitter.com/intent/tweet?in_reply_to={{ tweetId }}">Gabung percakapan</a> di Twitter. Atau, jika Anda menyukai artikel ini dan merasa orang lain harus membacanya, 
-        silakan  <a
-          href="https://twitter.com/intent/retweet?tweet_id={{ tweetId }}" target="_blank" rel="noopener">retweet</a>.
-        {% else %}
-        Jika kamu menyukai artikel ini dan merasa orang lain harus membacanya, silakan <a
-          href="{{ page.url | generateShareLink(description) }}" target="_blank" rel="noopener">bagikan</a> atau <a
-          href="{{ page.url | generateDiscussionLink }}">temukan percakapan ini</a> di Twitter.
-        {% endif %}
-      </p>
-    </div>
-
-    {% set webmentionUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset %}
+    {%- set webmentionUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
     {% include 'webmentions.njk' %}
-
-
+<a href="{{ page.url | generateShareLink(description) }}" target="_blank" rel="noopener"><button>Tambahkan Komentar</button></a>
 
 <share-widget>
   <button on-click="share" aria-label="Share" href="{{ shareUrl | safe }}">
