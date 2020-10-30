@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-10-30T12:44:03.786Z",
+  "lastFetched": "2020-10-30T12:51:40.913Z",
   "children": [
     {
       "type": "entry",
@@ -392,6 +392,28 @@
         "text": "Banyak orang terlihat cerdas secara emosional, padahal tidak. oleh @ilhamtopiq ilhamtopiq.netlify.app/posts/emosiona…"
       },
       "mention-of": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Risalah Supply",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a2f90676683f9ec144b954c690c49207b812813d69e3369f1b58202606f58811.jpg",
+        "url": "https://twitter.com/risalahsupply"
+      },
+      "url": "https://twitter.com/risalahsupply/status/1322150343078146048",
+      "published": "2020-10-30T12:16:20+00:00",
+      "wm-received": "2020-10-30T12:50:58Z",
+      "wm-id": 892849,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/ilhamtopiq/1322150343078146048",
+      "wm-target": "https://ilhamtopiq.netlify.app/posts/tugas-prolog/",
+      "content": {
+        "html": "Fakta dan relasi, rules, dan query. oleh <a href=\"https://twitter.com/ilhamtopiq\">@ilhamtopiq</a> <a href=\"https://ilhamtopiq.netlify.app/posts/tugas-prolog/\">ilhamtopiq.netlify.app/posts/tugas-pr…</a>",
+        "text": "Fakta dan relasi, rules, dan query. oleh @ilhamtopiq ilhamtopiq.netlify.app/posts/tugas-pr…"
+      },
+      "mention-of": "https://ilhamtopiq.netlify.app/posts/tugas-prolog/",
       "wm-property": "mention-of",
       "wm-private": false
     }
