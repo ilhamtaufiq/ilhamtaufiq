@@ -15,15 +15,17 @@ templateClass: tmpl-post
 
 {% set shareUrl = metadata.url + page.url %}
 {% block article %}
+<div class="e-content">
 {{ content | safe }}
-        If you liked this article and think others should read it, please <a
-          href="{{ page.url | generateShareLink(description) }}" target="_blank" rel="noopener">share it</a>
-
+</div>
+<div>
+If you liked this article and think others should read it, please <a
+href="{{ page.url | generateShareLink(description) }}" target="_blank" rel="noopener">share it</a>
 <h1>🤘 Komentar</h1>
     {%- set webmentionUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
     {% include 'webmentions.njk' %}
 <a href="https://twitter.com/intent/tweet?in_reply_to={{ tweetId }}"><button>Tambahkan Komentar</button></a>
-
+</div>
 <share-widget>
   <button on-click="share" aria-label="Share" href="{{ shareUrl | safe }}">
     <div></div>

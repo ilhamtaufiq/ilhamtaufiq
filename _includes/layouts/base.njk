@@ -71,6 +71,7 @@
         <div id="reading-progress" aria-hidden="true"></div>
       </nav>
       <h1 class="p-name">{{ title }}</h1>
+      <a rel="author" class="p-author h-card" href="#">Risalah Supply</a>
       {% block extraArticleHeader %}{% endblock %}
       <dialog id="message"></dialog>
       {% if googleanalytics %}
@@ -83,7 +84,6 @@
 
     <main>
       <article>
-          <div class="e-content">
         {% block article %}
           {{ content | safe }}
         {% endblock %}
@@ -91,17 +91,13 @@
         {% if page.url.indexOf("/posts/") > -1 %}
           <p>Diterbitkan <time class="dt-published" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
         {% endif %}
-              </div>
 
       </article>
     </main>
-
     <footer>
       <span class="h-card">
         <a class="p-name p-author u-url" href="https://ilhamtopiq.netlify.app/">ilham taufik</a>
       </span>
-
-
     </footer>
 
     <!-- Current page: {{ page.url | url }} -->
