@@ -2,7 +2,12 @@
 layout: layouts/base.njk
 title: Tentang Saya
 templateClass: tmpl-post
+image: ../img/ilhamtopiq.jpg
 ---
+
+<img class="u-photo" src="../img/ilhamtopiq.jpg" />
+
+
 
 I am a person that writes stuff.
 
