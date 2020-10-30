@@ -18,7 +18,7 @@ module.exports = {
 
     readableDate: function (date, format) {
         // default to Europe/Vienna Timezone
-        const dt = DateTime.fromJSDate(date, { zone: 'UTC+2' })
+        const dt = DateTime.fromJSDate(date, { zone: 'UTC+7' })
         if (!format) {
             format =
                 dt.hour + dt.minute > 0 ? 'dd LLL yyyy - HH:mm' : 'dd LLL yyyy'
@@ -48,7 +48,7 @@ module.exports = {
 
     isOwnWebmention: function (webmention) {
         const urls = [
-            'https://ilhamtopiq.netlify,app',
+            'https://ilhamtopiq.netlify.app',
             'https://twitter.com/ilhamtopiq'
         ]
         const authorUrl = webmention.author ? webmention.author.url : false
