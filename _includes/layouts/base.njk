@@ -5,14 +5,14 @@
     ga-id="{{ googleanalytics }}"
     {% endif %}
   >
-  <head>
+  <head  class="h-entry">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="{{ csp.regular | safe }}">
     {% if isdevelopment %}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     {% else %}
-    <link rel="icon" href="{{ '/img/favicon/favicon-192x192.png' | addHash }}" type="image/png">
+    <link class="u-photo" rel="icon" href="{{ '/img/favicon/favicon-192x192.png' | addHash }}" type="image/png">
     {% endif %}
     <meta name="theme-color" content="#f9c412">
     <meta name="robots" content="max-snippet:-1, max-image-preview: large, max-video-preview: -1">
@@ -58,7 +58,7 @@
 
     <!-- css is inserted by optimize-html custom plugin -->
   </head>
-  <body class="h-entry">
+  <body>
     <header>
       <nav>
         <div id="nav">
