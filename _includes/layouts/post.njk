@@ -12,14 +12,13 @@ templateClass: tmpl-post
      {{ wPerMinute | round }} menit
    </aside>
 {% endblock %}
-
 {% set shareUrl = metadata.url + page.url %}
 {% block article %}
 <div class="e-content">
 {{ content | safe }}
 </div>
 <div>
-If you liked this article and think others should read it, please <a
+If you liked this article and think others should read it, please <a class="u-url"
 href="{{ page.url | generateShareLink(description) }}" target="_blank" rel="noopener">share it</a>
 <h1>🤘 Komentar</h1>
     {%- set webmentionUrl -%}{{ page.url | url | absoluteUrl(site.url) }}{%- endset -%}
