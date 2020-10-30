@@ -82,8 +82,7 @@
     </header>
 
     <main>
-      <article class="h-entry">
-          <div class="e-content">
+      <article class="h-entry e-content">
         {% block article %}
           {{ content | safe }}
         {% endblock %}
@@ -91,8 +90,6 @@
         {% if page.url.indexOf("/posts/") > -1 %}
           <p>Diterbitkan <time class="dt-published" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
         {% endif %}
-              </div>
-
       </article>
     </main>
 
