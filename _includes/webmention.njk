@@ -2,14 +2,14 @@
     <div class="webmention__meta">
         {% if webmention.author %}
             <a 
-                class="webmention__author h-card u-url"
+                class="webmention__author"
                 {% if webmention.url %}href="{{ webmention.url }}"{% endif %} 
                 target="_blank" 
                 rel="noopener noreferrer"
             >
                 {% if webmention.author.photo %}
                     <img
-                        class="webmention__author__photo u-photo" 
+                        class="webmention__author__photo" 
                         src="{{ webmention.author.photo }}" 
                         alt="" 
                         width="48"

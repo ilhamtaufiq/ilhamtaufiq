@@ -12,9 +12,7 @@ templateClass: tmpl-post
      {{ wPerMinute | round }} menit
    </aside>
 {% endblock %}
-<div class="u-url">
 {% set shareUrl = metadata.url + page.url %}
-</div>
 {% block article %}
 <div class="e-content">
 {{ content | safe }}
@@ -28,7 +26,7 @@ href="{{ page.url | generateShareLink(description) }}" target="_blank" rel="noop
 <a href="https://twitter.com/intent/tweet?in_reply_to={{ tweetId }}"><button>Tambahkan Komentar</button></a>
 </div>
 <share-widget>
-  <button on-click="share" aria-label="Share" href="{{ shareUrl | safe }}">
+  <button class="u-url" on-click="share" aria-label="Share" href="{{ shareUrl | safe }}">
     <div></div>
   </button>
 </share-widget>
