@@ -14,9 +14,10 @@ templateClass: tmpl-post
 {% endblock %}
 
 {% set shareUrl = metadata.url + page.url %}
-
+<div class="e-content p-name">
 {% block article %}
 {{ content | safe }}
+</div>
         If you liked this article and think others should read it, please <a
           href="{{ page.url | generateShareLink(description) }}" target="_blank" rel="noopener">share it</a>
 
