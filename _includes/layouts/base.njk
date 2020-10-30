@@ -70,7 +70,7 @@
         </div>
         <div id="reading-progress" aria-hidden="true"></div>
       </nav>
-      <h1 class="e-content p-name title">{{ title }}</h1>
+      <h1 class="h-entry p-name">{{ title }}</h1>
       {% block extraArticleHeader %}{% endblock %}
       <dialog id="message"></dialog>
       {% if googleanalytics %}
@@ -82,7 +82,7 @@
     </header>
 
     <main>
-      <article class="h-entry e-content p-name">
+      <article>
         {% block article %}
           {{ content | safe }}
         {% endblock %}
