@@ -53,9 +53,7 @@
     </script>
     <link rel="webmention" href="https://webmention.io/ilhamtopiq.netlify.app/webmention" />
     <link rel="pingback" href="https://webmention.io/ilhamtopiq.netlify.app/xmlrpc" />
-    <link class="h-card" href="https://twitter.com/ilhamtopiq" rel="me">
-    <link class="u-url" rel="me" href="https://ilhamtopiq.netlify.app">
-
+    <link href="https://twitter.com/ilhamtopiq" rel="me">
 
 
     <!-- css is inserted by optimize-html custom plugin -->
@@ -99,7 +97,8 @@
     </main>
 
     <footer>
-      <a rel="author" class="p-author h-card" href="/about/">Ilham Taufik</a>
+      <a class="h-card p-name u-url" rel="me" href="{{ metadata.url }}">{{ metadata.author.name }}</a>
+
     </footer>
 
     <!-- Current page: {{ page.url | url }} -->
