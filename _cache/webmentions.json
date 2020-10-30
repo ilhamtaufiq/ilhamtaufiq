@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-10-30T07:49:25.650Z",
+  "lastFetched": "2020-10-30T07:53:53.150Z",
   "children": [
     {
       "type": "entry",
@@ -371,6 +371,28 @@
       },
       "in-reply-to": "https://ilhamtopiq.netlify.app/posts/emosional/",
       "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Risalah Supply",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/a2f90676683f9ec144b954c690c49207b812813d69e3369f1b58202606f58811.jpg",
+        "url": "https://twitter.com/risalahsupply"
+      },
+      "url": "https://twitter.com/risalahsupply/status/1322083383187402752",
+      "published": "2020-10-30T07:50:16+00:00",
+      "wm-received": "2020-10-30T07:52:42Z",
+      "wm-id": 892392,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/ilhamtopiq/1322083383187402752",
+      "wm-target": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "content": {
+        "html": "Banyak orang terlihat cerdas secara emosional, padahal tidak. oleh <a href=\"https://twitter.com/ilhamtopiq\">@ilhamtopiq</a> <a href=\"https://ilhamtopiq.netlify.app/posts/emosional/\">ilhamtopiq.netlify.app/posts/emosiona…</a>",
+        "text": "Banyak orang terlihat cerdas secara emosional, padahal tidak. oleh @ilhamtopiq ilhamtopiq.netlify.app/posts/emosiona…"
+      },
+      "mention-of": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "wm-property": "mention-of",
       "wm-private": false
     }
   ]
