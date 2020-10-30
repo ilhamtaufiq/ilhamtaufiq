@@ -26,7 +26,7 @@ href="{{ page.url | generateShareLink(description) }}" target="_blank" rel="noop
 <a href="https://twitter.com/intent/tweet?in_reply_to={{ tweetId }}"><button>Tambahkan Komentar</button></a>
 </div>
 <share-widget>
-  <button class="u-url" on-click="share" aria-label="Share" href="{{ shareUrl | safe }}">
+  <button on-click="share" aria-label="Share" href="{{ shareUrl | safe }}">
     <div></div>
   </button>
 </share-widget>
