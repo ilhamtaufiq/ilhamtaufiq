@@ -82,7 +82,8 @@
     </header>
 
     <main>
-      <article class="e-content">
+      <article>
+          <div class="e-content">
         {% block article %}
           {{ content | safe }}
         {% endblock %}
@@ -90,11 +91,14 @@
         {% if page.url.indexOf("/posts/") > -1 %}
           <p>Diterbitkan <time class="dt-published" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
         {% endif %}
+              </div>
+
       </article>
     </main>
 
     <footer>
-      <a class="h-card p-name u-url" rel="me" href="{{ metadata.url }}">{{ metadata.author.name }}</a>
+      <a rel="author" class="p-author h-card" href="/about/">Ilham Taufik</a>
+      <a class="p-name u-url" rel="me" href="{{ metadata.url }}">{{ metadata.author.name }}</a>
 
     </footer>
 
