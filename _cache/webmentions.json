@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-10-30T15:35:50.134Z",
+  "lastFetched": "2020-10-31T06:36:35.664Z",
   "children": [
     {
       "type": "entry",
@@ -414,6 +414,50 @@
         "text": "Fakta dan relasi, rules, dan query. oleh @ilhamtopiq ilhamtopiq.netlify.app/posts/tugas-pr…"
       },
       "mention-of": "https://ilhamtopiq.netlify.app/posts/tugas-prolog/",
+      "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Pusat Penerangan Cenderakopi",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0cbee048e5851ff2b4de6bc92da5e2507591c45ef752329a5e5d0bbbdc06a8df.jpg",
+        "url": "https://twitter.com/cenderakopi"
+      },
+      "url": "https://twitter.com/cenderakopi/status/1322206915141595136",
+      "published": "2020-10-30T16:01:08+00:00",
+      "wm-received": "2020-10-30T16:13:18Z",
+      "wm-id": 893211,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/ilhamtopiq/1321380677753794561/1322206915141595136",
+      "wm-target": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "content": {
+        "html": "Tesssssssttttttt @ilhamtopiq <a href=\"https://twitter.com/risalahsupply\">@risalahsupply</a>\n<a class=\"u-mention\" href=\"https://ilhamtopiq.netlify.app/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ilhamtopiq\"></a>",
+        "text": "Tesssssssttttttt @ilhamtopiq @risalahsupply"
+      },
+      "in-reply-to": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "wm-property": "in-reply-to",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Pusat Penerangan Cenderakopi",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/0cbee048e5851ff2b4de6bc92da5e2507591c45ef752329a5e5d0bbbdc06a8df.jpg",
+        "url": "https://twitter.com/cenderakopi"
+      },
+      "url": "https://twitter.com/cenderakopi/status/1322203191652491265",
+      "published": "2020-10-30T15:46:20+00:00",
+      "wm-received": "2020-10-30T16:13:17Z",
+      "wm-id": 893210,
+      "wm-source": "https://brid-gy.appspot.com/post/twitter/ilhamtopiq/1322203191652491265",
+      "wm-target": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "content": {
+        "html": "Banyak orang terlihat cerdas secara emosional, padahal tidak. oleh <a href=\"https://twitter.com/ilhamtopiq\">@ilhamtopiq</a> <a href=\"https://ilhamtopiq.netlify.app/posts/emosional/\">ilhamtopiq.netlify.app/posts/emosiona…</a>",
+        "text": "Banyak orang terlihat cerdas secara emosional, padahal tidak. oleh @ilhamtopiq ilhamtopiq.netlify.app/posts/emosiona…"
+      },
+      "mention-of": "https://ilhamtopiq.netlify.app/posts/emosional/",
       "wm-property": "mention-of",
       "wm-private": false
     }
