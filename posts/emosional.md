@@ -4,7 +4,7 @@ description: Banyak orang terlihat cerdas secara emosional, padahal tidak.
 date: 2020-10-28
 tweetId: '1321380677753794561'
 tags:
-  - Renungan
+  - apa-aja-deh
 layout: layouts/post.njk
 image: https://cdn.pixabay.com/photo/2014/10/27/22/03/sad-505857_960_720.jpg
 ---

@@ -3,7 +3,7 @@ title: Prolog Pohon Keluarga
 description: Fakta dan relasi, rules, dan query.
 date: 2020-10-28
 tags:
-  - Prolog
+  - prolog
 layout: layouts/post.njk
 ---
 

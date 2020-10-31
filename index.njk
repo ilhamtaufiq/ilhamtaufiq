@@ -4,10 +4,19 @@ layout: layouts/home.njk
 description: Personal Blog dari Ilham
 date: Last Modified
 ---
-
+<h2>👋 Hai</h2>
+<p>Nama Saya Ilham Taufik, dan ini adalah blog pribadi saya Risalah Supply</p>
 
 <div id="posts">
   <h2>Artikel Terbaru</h2>
   {% set postslist = collections.posts %}
   {% include "postslist.njk" %}
+</div>
+
+<div>
+<h2>Tag</h2>
+{% for tag in collections.tagList %}
+  {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="post-tag">#{{ tag }}</a>
+{% endfor %}
 </div>
