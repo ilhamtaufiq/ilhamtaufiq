@@ -1,5 +1,5 @@
 {
-  "lastFetched": "2020-10-31T06:36:35.664Z",
+  "lastFetched": "2020-10-31T13:43:29.520Z",
   "children": [
     {
       "type": "entry",
@@ -459,6 +459,28 @@
       },
       "mention-of": "https://ilhamtopiq.netlify.app/posts/emosional/",
       "wm-property": "mention-of",
+      "wm-private": false
+    },
+    {
+      "type": "entry",
+      "author": {
+        "type": "card",
+        "name": "Regisaputra",
+        "photo": "https://webmention.io/avatar/pbs.twimg.com/ea533cbb1fab66faaed7fdffa77ea631cbd0e331a168403b87dc9048ba4d6809.jpg",
+        "url": "https://twitter.com/Regisap38686518"
+      },
+      "url": "https://twitter.com/Regisap38686518/status/1322534413985411072",
+      "published": "2020-10-31T13:42:30+00:00",
+      "wm-received": "2020-10-31T13:43:02Z",
+      "wm-id": 894293,
+      "wm-source": "https://brid-gy.appspot.com/comment/twitter/ilhamtopiq/1321380677753794561/1322534413985411072",
+      "wm-target": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "content": {
+        "html": "Mantull\n<a class=\"u-mention\" href=\"https://ilhamtopiq.netlify.app/\"></a>\n<a class=\"u-mention\" href=\"https://twitter.com/ilhamtopiq\"></a>",
+        "text": "Mantull"
+      },
+      "in-reply-to": "https://ilhamtopiq.netlify.app/posts/emosional/",
+      "wm-property": "in-reply-to",
       "wm-private": false
     }
   ]
